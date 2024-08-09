@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40605C072C6325FD003C9AD4 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40605C062C6325FD003C9AD4 /* WelcomeView.swift */; };
+		4065B6532C4EE9A900231B1A /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B6522C4EE9A900231B1A /* UserData.swift */; };
+		4065B6572C57471300231B1A /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065B6562C57471300231B1A /* HealthKitManager.swift */; };
+		40BCF30B2C4C232500856364 /* workoutLoggerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCF30A2C4C232500856364 /* workoutLoggerApp.swift */; };
+		40BCF30D2C4C232500856364 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCF30C2C4C232500856364 /* ContentView.swift */; };
+		40BCF30F2C4C232600856364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BCF30E2C4C232600856364 /* Assets.xcassets */; };
+		40BCF3122C4C232600856364 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BCF3112C4C232600856364 /* Preview Assets.xcassets */; };
+		40BCF3192C4C671300856364 /* LogWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCF3182C4C671300856364 /* LogWorkoutView.swift */; };
+		40BCF31B2C4CB3AD00856364 /* SetGoals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCF31A2C4CB3AD00856364 /* SetGoals.swift */; };
+		40BCF31D2C4CB49600856364 /* TrackProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCF31C2C4CB49600856364 /* TrackProgress.swift */; };
+		40BCF31F2C4CBA2D00856364 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCF31E2C4CBA2D00856364 /* ProfileView.swift */; };
+		40BCF3212C4CEDCA00856364 /* WorkoutHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCF3202C4CEDCA00856364 /* WorkoutHistory.swift */; };
+		40BCF3232C4D578F00856364 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCF3222C4D578F00856364 /* Login.swift */; };
+		40BCF3252C4DF0A000856364 /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCF3242C4DF0A000856364 /* Survey.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40605C062C6325FD003C9AD4 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		4065B6522C4EE9A900231B1A /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		4065B6562C57471300231B1A /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HealthKitManager.swift; path = workoutLogger/HealthKitManager.swift; sourceTree = SOURCE_ROOT; };
+		4065B65A2C57500200231B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		40B323272C5C9619003A8F55 /* workoutLogger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = workoutLogger.entitlements; sourceTree = "<group>"; };
+		40BCF3072C4C232500856364 /* workoutLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = workoutLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BCF30A2C4C232500856364 /* workoutLoggerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutLoggerApp.swift; sourceTree = "<group>"; };
+		40BCF30C2C4C232500856364 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40BCF30E2C4C232600856364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40BCF3112C4C232600856364 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40BCF3182C4C671300856364 /* LogWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogWorkoutView.swift; sourceTree = "<group>"; };
+		40BCF31A2C4CB3AD00856364 /* SetGoals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGoals.swift; sourceTree = "<group>"; };
+		40BCF31C2C4CB49600856364 /* TrackProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackProgress.swift; sourceTree = "<group>"; };
+		40BCF31E2C4CBA2D00856364 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		40BCF3202C4CEDCA00856364 /* WorkoutHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHistory.swift; sourceTree = "<group>"; };
+		40BCF3222C4D578F00856364 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		40BCF3242C4DF0A000856364 /* Survey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40BCF3042C4C232500856364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40BCF2FE2C4C232500856364 = {
+			isa = PBXGroup;
+			children = (
+				40BCF3092C4C232500856364 /* workoutLogger */,
+				40BCF3082C4C232500856364 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40BCF3082C4C232500856364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40BCF3072C4C232500856364 /* workoutLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40BCF3092C4C232500856364 /* workoutLogger */ = {
+			isa = PBXGroup;
+			children = (
+				40B323272C5C9619003A8F55 /* workoutLogger.entitlements */,
+				4065B65A2C57500200231B1A /* Info.plist */,
+				40BCF30A2C4C232500856364 /* workoutLoggerApp.swift */,
+				40BCF30C2C4C232500856364 /* ContentView.swift */,
+				40BCF3222C4D578F00856364 /* Login.swift */,
+				40605C062C6325FD003C9AD4 /* WelcomeView.swift */,
+				40BCF3242C4DF0A000856364 /* Survey.swift */,
+				40BCF3202C4CEDCA00856364 /* WorkoutHistory.swift */,
+				40BCF31E2C4CBA2D00856364 /* ProfileView.swift */,
+				40BCF31C2C4CB49600856364 /* TrackProgress.swift */,
+				40BCF31A2C4CB3AD00856364 /* SetGoals.swift */,
+				40BCF3182C4C671300856364 /* LogWorkoutView.swift */,
+				40BCF30E2C4C232600856364 /* Assets.xcassets */,
+				40BCF3102C4C232600856364 /* Preview Content */,
+			);
+			path = workoutLogger;
+			sourceTree = "<group>";
+		};
+		40BCF3102C4C232600856364 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4065B6562C57471300231B1A /* HealthKitManager.swift */,
+				40BCF3112C4C232600856364 /* Preview Assets.xcassets */,
+				4065B6522C4EE9A900231B1A /* UserData.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40BCF3062C4C232500856364 /* workoutLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BCF3152C4C232600856364 /* Build configuration list for PBXNativeTarget "workoutLogger" */;
+			buildPhases = (
+				40BCF3032C4C232500856364 /* Sources */,
+				40BCF3042C4C232500856364 /* Frameworks */,
+				40BCF3052C4C232500856364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = workoutLogger;
+			productName = workoutLogger;
+			productReference = 40BCF3072C4C232500856364 /* workoutLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40BCF2FF2C4C232500856364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					40BCF3062C4C232500856364 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 40BCF3022C4C232500856364 /* Build configuration list for PBXProject "workoutLogger" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40BCF2FE2C4C232500856364;
+			productRefGroup = 40BCF3082C4C232500856364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40BCF3062C4C232500856364 /* workoutLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40BCF3052C4C232500856364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BCF3122C4C232600856364 /* Preview Assets.xcassets in Resources */,
+				40BCF30F2C4C232600856364 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40BCF3032C4C232500856364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BCF3252C4DF0A000856364 /* Survey.swift in Sources */,
+				40BCF3212C4CEDCA00856364 /* WorkoutHistory.swift in Sources */,
+				40BCF31D2C4CB49600856364 /* TrackProgress.swift in Sources */,
+				40BCF30D2C4C232500856364 /* ContentView.swift in Sources */,
+				40BCF30B2C4C232500856364 /* workoutLoggerApp.swift in Sources */,
+				40BCF3192C4C671300856364 /* LogWorkoutView.swift in Sources */,
+				40BCF31F2C4CBA2D00856364 /* ProfileView.swift in Sources */,
+				40605C072C6325FD003C9AD4 /* WelcomeView.swift in Sources */,
+				40BCF31B2C4CB3AD00856364 /* SetGoals.swift in Sources */,
+				4065B6572C57471300231B1A /* HealthKitManager.swift in Sources */,
+				4065B6532C4EE9A900231B1A /* UserData.swift in Sources */,
+				40BCF3232C4D578F00856364 /* Login.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		40BCF3132C4C232600856364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40BCF3142C4C232600856364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40BCF3162C4C232600856364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = workoutLogger/workoutLogger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"workoutLogger/Preview Content\"";
+				DEVELOPMENT_TEAM = 2P93BKM958;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = workoutLogger/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaniak.workoutLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40BCF3172C4C232600856364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = workoutLogger/workoutLogger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"workoutLogger/Preview Content\"";
+				DEVELOPMENT_TEAM = 2P93BKM958;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = workoutLogger/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaniak.workoutLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40BCF3022C4C232500856364 /* Build configuration list for PBXProject "workoutLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BCF3132C4C232600856364 /* Debug */,
+				40BCF3142C4C232600856364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BCF3152C4C232600856364 /* Build configuration list for PBXNativeTarget "workoutLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BCF3162C4C232600856364 /* Debug */,
+				40BCF3172C4C232600856364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40BCF2FF2C4C232500856364 /* Project object */;
+}
